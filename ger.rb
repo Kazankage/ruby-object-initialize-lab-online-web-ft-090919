@@ -3,7 +3,7 @@ class Person
     @name = name
   end
   
-  attr_accessor = :name 
+  attr_accessor :name 
 end
 
 class Dog 
@@ -12,7 +12,7 @@ class Dog
     @breed = breed 
   end
   
-  attr_accessor = :name, :breed
+  attr_accessor :name, :breed
 end
 
 george = Person.new("George")
