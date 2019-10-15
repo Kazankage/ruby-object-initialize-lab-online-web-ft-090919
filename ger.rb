@@ -17,3 +17,11 @@ end
 
 george = Person.new("George")
 puts george.name 
+puts
+dog = Dog.new("mutty")
+other_dog = Dog.new("other", "corgi")
+puts dog.name 
+puts dog.breed 
+puts 
+puts other_dog.name
+puts other_dog.breed
